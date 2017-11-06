@@ -19,6 +19,7 @@
       <configuration>
         <fileset id="fileset" name="Spring Beans" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/spring-beans.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-mvc.xml</file>
         </fileset>
       </configuration>
     </facet>

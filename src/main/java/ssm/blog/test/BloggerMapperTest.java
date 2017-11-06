@@ -17,6 +17,8 @@ public class BloggerMapperTest {
     private BloggerMapper bloggerMapper;
     @Test
     public void getBloggerData(){
+        Blogger blogger = new Blogger(2,"jack","yueguang1991","didi","diid","hha",null);
+        bloggerMapper.insert(blogger);
         List<Blogger> bloggers = bloggerMapper.selectAll();
         System.out.println(bloggers);
     }
