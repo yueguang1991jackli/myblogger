@@ -7,7 +7,7 @@ import java.io.Serializable;
  *
  * 博主信息实体类
  */
-@Table(name = "blogger")
+@Table(name = "t_blogger")
 public class Blogger implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,8 +25,7 @@ public class Blogger implements Serializable {
     @Column(name = "imagename")
     private String imageName;
 
-    public Blogger(Integer id, String userName, String password, String profile, String nickName, String sign, String imageName) {
-        this.id = id;
+    public Blogger( String userName, String password, String profile, String nickName, String sign, String imageName) {
         this.username = userName;
         this.password = password;
         this.profile = profile;

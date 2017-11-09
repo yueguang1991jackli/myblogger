@@ -9,10 +9,6 @@ import tk.mybatis.mapper.common.Mapper;
  */
 
 public interface BloggerMapper extends Mapper<Blogger>{
-    /**
-     * 查询博主信息
-     * @return
-     */
-//    Blogger getBloggerData();
+
 
 }
